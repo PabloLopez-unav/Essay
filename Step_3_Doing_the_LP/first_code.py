@@ -8,7 +8,7 @@ from scipy.sparse import lil_matrix
 # 1. LOAD DATA
 # ==========================================
 
-file = r"Step_2_Doing_the_LP\combined_BZN_DE_LU_Clean.csv"
+file = r"Step_3_Doing_the_LP\combined_BZN_DE_LU_Clean.csv"
 
 df = pd.read_csv(file)
 
@@ -107,7 +107,8 @@ print("\n========== RESULTS ==========")
 print(f"Total arbitrage revenue: {total_profit:,.2f} EUR")
 print(f"Revenue per kW: {total_profit/1000:.2f} EUR/kW")
 
-# Save results
+# Save results into same folder
+
 df.to_csv("battery_results.csv", index=False)
 
 print("\nResults saved to battery_results.csv")
