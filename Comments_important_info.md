@@ -27,6 +27,9 @@ Leap days (February 29) are excluded only from the yearly comparison graph to en
 **Methodological consideration:** The introduction of 15-minute day-ahead pricing in October 2025 may affect the observed spreads and must be considered when interpreting the results.
 
 
+También he hecho gráficas con moving average para que se vea más claro y no haya tanto picos, que si no no se entiende nada.
+Por 3,5 y 7 días, con y sin log, yo creo que algunas de los 18 mil gráficas es muy interesante, sobre todo para poder entender la tendencia. Me hace gracias, que se parecen mucho a espectogramas.
+
 
 **LP program**
 
